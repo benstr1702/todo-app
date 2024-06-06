@@ -1,0 +1,26 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "a small MVC todo app using nodejs express and mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benstr1702/todo-app.git"
+  },
+  "author": "benjamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benstr1702/todo-app/issues"
+  },
+  "homepage": "https://github.com/benstr1702/todo-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0",
+    "nodemon": "^3.1.3"
+  }
+}
